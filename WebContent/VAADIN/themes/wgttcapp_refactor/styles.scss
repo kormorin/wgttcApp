@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "wgttcapp_refactor.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in wgttcapp_refactor.scss */
+.wgttcapp_refactor {
+  @include addons;
+  @include wgttcapp_refactor;
+}
